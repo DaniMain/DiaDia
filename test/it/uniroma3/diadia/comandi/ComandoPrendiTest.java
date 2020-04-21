@@ -1,14 +1,14 @@
 package it.uniroma3.diadia.comandi;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import it.uniroma3.diadia.*;
+import it.uniroma3.diadia.Partita;
 import it.uniroma3.diadia.attrezzi.Attrezzo;
-import it.uniroma3.diadia.comandi.Comando;
-import it.uniroma3.diadia.comandi.ComandoPrendi;
 
 public class ComandoPrendiTest {
 	
